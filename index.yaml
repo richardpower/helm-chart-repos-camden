@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  pages:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2021-09-03T09:53:15.734878264+01:00"
+    dependencies:
+    - name: pages-api
+      repository: https://richardpower.github.io/helm-chart-repos-camden/ 
+      version: 1.x.x
+    - name: mysql
+      repository: https://richardpower.github.io/helm-chart-repos-camden/
+      version: 1.x.x
+    description: A Helm chart for Pages Application
+    digest: b358d842a86fc55d8662fefb7f426fa2db6f68368300839ebd2037c17417721f
+    name: pages
+    type: application
+    urls:
+    - pages-1.0.0.tgz
+    version: 1.0.0
+generated: "2021-09-03T09:53:15.733331054+01:00"
